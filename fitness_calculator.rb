@@ -34,7 +34,7 @@ else
 		x = [1.0994921,0.0009929,0.0000023,0.0001392] #Females
 	end
 
-	body_density = x[0] - (x[1] * sum) + (x[2] * (sum**2)) - (x[3] * age)
+	body_density = x[0] - (x[1] * sum) + (x[2] * (sum**2)) - (x[3] * age.to_f)
 	siri_body_fat = ((495 / body_density) - 450)
 	brozek_body_fat = ((457 / body_density) - 414.2)
 
