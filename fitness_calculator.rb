@@ -1,7 +1,7 @@
 def usage(error = nil)
 
 	instructions = "Jackson and Pollock Equation\n
-	See source for measuring instructions: http://www-rohan.sdsu.edu/~ens304l/skinfold.htm
+	See source for measuring instructions: http://www.topendsports.com/testing/density-jackson-pollock.htm
 	You only need $3 calipers from EBay.
 	Women measure triceps, suprailiac, and thigh.
 	Men measure chest, abdominal, and thigh.
