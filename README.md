@@ -1,7 +1,7 @@
 Fitness_Calculator
 ==================
 
-Basic bone density/body fat percentage calculator
+Basic body density/body fat percentage calculator
 
 Usage: ruby fitness_calculator.rb [gender] [age] [chest|triceps] [suprailiac|abdominal] [thigh] 
 
