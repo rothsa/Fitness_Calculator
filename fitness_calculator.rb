@@ -51,8 +51,8 @@ thigh = ARGV[4]
 if ARGV.empty?
 	usage
 else
-	Person.new(ARGV.join(",")
-	Person.calculate_fitness
+	person = Person.new(ARGV.join(",")
+	person.calculate_fitness
 	puts "Body Density: #{body_density.round(6)}\tBody Fat (Siri Method): #{siri_body_fat.round(2)}%\tBody Fat (Brozek Method): #{brozek_body_fat.round(2)}%"
 
 end
