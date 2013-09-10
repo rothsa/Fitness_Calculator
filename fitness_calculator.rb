@@ -42,11 +42,7 @@ class Person
 	end
 end
 ###
-gender = ARGV[0]
-age = ARGV[1]
-chest_triceps = ARGV[2]
-suprailiac_abdominal = ARGV[3]
-thigh = ARGV[4]
+gender, age, chest_triceps, suprailiac_abdominal, thigh = ARGV
 
 if ARGV.empty?
 	usage
