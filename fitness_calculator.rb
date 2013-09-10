@@ -15,11 +15,7 @@ Example: ruby fitness_calculator.rb M 27 8 14 14
 
 end
 
-gender = ARGV[0]
-age = ARGV[1]
-chest_triceps = ARGV[2]
-suprailiac_abdominal = ARGV[3]
-thigh = ARGV[4]
+gender, age, chest_triceps, suprailiac_abdominal, thigh = ARGV
 
 if ARGV.empty?
 	usage
