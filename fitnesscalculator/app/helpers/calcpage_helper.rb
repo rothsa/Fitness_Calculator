@@ -1,0 +1,2 @@
+module CalcpageHelper
+end

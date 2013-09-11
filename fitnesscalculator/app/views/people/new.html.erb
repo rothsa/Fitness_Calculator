@@ -1,0 +1,21 @@
+<h1>Fitness Calculator Leaderboard</h1>
+
+<%= form_for :people, url:people_path do |f| %>
+  <p>
+    <%= f.label :name %>
+    <%= f.text_field :text %><br>
+    <%= f.label :M_or_F%>
+    <%= f.text_field :text %><br>
+    <%= f.label :age %>
+    <%= f.text_field :text %><br>
+    <%= f.label :chest_triceps %>
+    <%= f.text_field :text %><br>
+    <%= f.label :suprailiac_abdominal %>
+    <%= f.text_field :text %><br>
+    <%= f.label :thigh %>
+    <%= f.text_field :text %><br>
+ </p>
+  <p>
+    <%= f.submit %>
+  </p>
+<% end %>

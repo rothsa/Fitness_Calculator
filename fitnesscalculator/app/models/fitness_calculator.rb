@@ -1,4 +1,4 @@
-class Person
+class FitnessCalculator
 	attr_reader :attributes
 	
 	def initialize(attributes)
@@ -51,6 +51,6 @@ end
 if ARGV.count != 5
 	usage
 else
-	person = Person.new(ARGV)
-	puts "Body Density: #{person.body_density.round(6)}\tBody Fat (Siri Method): #{person.siri_body_fat.round(2)}%\tBody Fat (Brozek Method): #{person.brozek_body_fat.round(2)}%"
+	fitness_calculator = FitnessCalculator.new(ARGV)
+	puts "Body Density: #{fitness_calculator.body_density.round(6)}\tBody Fat (Siri Method): #{fitness_calculator.siri_body_fat.round(2)}%\tBody Fat (Brozek Method): #{fitness_calculator.brozek_body_fat.round(2)}%"
 end
